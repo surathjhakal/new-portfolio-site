@@ -1,0 +1,73 @@
+.planeLauncher {
+  background: rgb(53, 134, 255);
+  width: 100%;
+  min-height: 100%;
+  flex: 1 1 0%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  animation: up 5s ease forwards;
+}
+
+@keyframes up {
+  0% {
+    min-height: 100%;
+  }
+  100% {
+    min-height: 0%;
+  }
+}
+
+.planeOuter {
+  position: absolute;
+  animation: shake 0.2s ease infinite, go-up 8s ease-out forwards;
+  height: 35px;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+}
+
+@keyframes go-up {
+  from {
+    margin-bottom: 0%;
+  }
+  to {
+    margin-bottom: 120%;
+  }
+}
+
+.planeOuter::before {
+  content: "";
+  position: absolute;
+  bottom: -199px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 200px;
+  background: linear-gradient(#fff, transparent);
+}
+
+.planeOuter::after {
+  content: "";
+  position: absolute;
+  bottom: -199px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 200px;
+  background: linear-gradient(#fff, transparent);
+  filter: blur(20px);
+}
+
+.plane {
+  height: 35px;
+}

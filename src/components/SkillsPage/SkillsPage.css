@@ -1,0 +1,103 @@
+.Skills {
+  background-color: #e7ecf1;
+}
+
+.Skills_all_sliders {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 1rem auto;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.Skills_all_sliders h1 {
+  font-size: 2rem;
+  font-family: serif;
+}
+
+.Skills_slider {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  gap: 1rem;
+  border: 2px solid #bebebe;
+  width: 100%;
+  min-height: 150px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px grey;
+  background-color: white;
+}
+
+.Skills_slider_content {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  animation: scroll 10s linear infinite;
+}
+
+.Skills_slider_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.Skills_certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  margin: auto;
+  background-color: aliceblue;
+}
+
+.Skills_certifications h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Skills_all_certificates {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Skills_certificates_data {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.Skills_certificate_card {
+  height: 200px !important;
+  width: 300px !important;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 1rem));
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Skills_all_sliders {
+    width: 90%;
+  }
+  .Skills_all_sliders h1 {
+    font-size: 1.5rem;
+  }
+  .Skills_all_certificates {
+    width: 100%;
+  }
+}
