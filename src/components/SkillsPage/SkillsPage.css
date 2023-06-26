@@ -77,8 +77,8 @@
 }
 
 .Skills_certificate_card {
-  height: 200px !important;
-  width: 300px !important;
+  height: 180px !important;
+  width: 230px !important;
 }
 
 @keyframes scroll {
@@ -99,5 +99,9 @@
   }
   .Skills_all_certificates {
     width: 100%;
+  }
+  .Skills_certificate_card {
+    height: 130px !important;
+    width: 100% !important;
   }
 }

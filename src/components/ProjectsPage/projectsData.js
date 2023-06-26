@@ -14,6 +14,20 @@ export const projectsData = [
     link: "https://duwork-task-managment-tool.netlify.app",
   },
   {
+    name: "Word Check Similarity",
+    image: require("../../assets/word-check-similarity.png"),
+    info: [
+      "Simple Website to check text similarity between 2 word by making a post call to api endpoint",
+      "Worked on Nextjs 13(serverless architechture) & Next-auth (authentication), jwt token session",
+      "Implemented as Typescript project(type checking & interface) & tailwind css",
+      "Worked on Prisma ( helps connect with database & Add or Alter data action easliy), used mongodb as database",
+      "Created dark & light theme using next-theme & reusable components like Button,Input,Toast,etc",
+      "Deployed on netlify",
+    ],
+    techUsed: "Nextjs, Netflify",
+    link: "https://duwork-task-managment-tool.netlify.app",
+  },
+  {
     name: "Blog Website",
     image: require("../../assets/blog-website.png"),
     info: [
@@ -67,7 +81,7 @@ export const projectsData = [
       "Deployed on firebase",
     ],
     techUsed: "Reactjs, Firebase",
-    link: "https://netflix-build-70a76.web.app/",
+    link: "https://netflix-clone-7de8a.web.app/",
   },
   {
     name: "Voting Programming Language",
@@ -77,7 +91,6 @@ export const projectsData = [
       "Worked on Model, View, Templates",
       "Used postgresql for database",
       "Created 3 view signup,signin & homepage",
-      "Gained lot of learning in css",
       "Deployed on railway.app",
     ],
     techUsed: "Django, Railway",

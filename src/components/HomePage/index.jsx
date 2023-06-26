@@ -5,6 +5,7 @@ import { Button } from "react-bootstrap";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { FiSend } from "react-icons/fi";
 import { GiHand } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 export const HomePage = () => {
   return (
@@ -33,9 +34,11 @@ export const HomePage = () => {
               and functional websites and applications
             </div>
 
-            <Button className="home_contact_button">
-              Contact Me <FiSend className="home_send" />
-            </Button>
+            <Link to="/contact">
+              <Button className="home_contact_button">
+                Contact Me <FiSend className="home_send" />
+              </Button>
+            </Link>
           </div>
           <div className="home_image"></div>
         </div>

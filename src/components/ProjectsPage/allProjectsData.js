@@ -15,6 +15,17 @@ export const allProjectsData = [
         },
       ],
       [
+        "Word Check Similarity",
+        "Nextjs",
+        "Nextjs(Serverless)",
+        {
+          href: "https://word-check-similarity-4hz9879c7-surathjhakal.vercel.app/",
+        },
+        {
+          href: "https://github.com/surathjhakal/word-check-similarity",
+        },
+      ],
+      [
         "Blog Website",
         "Nextjs",
         "Firebase",
@@ -63,7 +74,7 @@ export const allProjectsData = [
         "Reactjs",
         "Firebase",
         {
-          href: "https://netflix-build-70a76.web.app/",
+          href: "https://netflix-clone-7de8a.web.app/",
         },
         {
           href: "https://github.com/surathjhakal/Netflix-clone",
@@ -87,13 +98,13 @@ export const allProjectsData = [
     columns: ["Name", "Tech Stack", "Live Demo", "Repo"],
     rows: [
       [
-        "xyz",
-        "fsadifd sdndbsnf",
+        "No app",
+        "Null",
         {
-          href: "https://www.youtube.com",
+          href: "https://www.google.com",
         },
         {
-          href: "https://www.youtube.com",
+          href: "https://www.google.com",
         },
       ],
     ],
@@ -106,10 +117,10 @@ export const allProjectsData = [
         "Portfolio 2.0",
         "Reactjs, React-Bootstrap",
         {
-          href: "https://www.youtube.com",
+          href: "https://surath-jhakal.web.app/",
         },
         {
-          href: "https://www.youtube.com",
+          href: "https://github.com/surathjhakal/new-portfolio-site",
         },
       ],
       [
@@ -194,33 +205,46 @@ export const allProjectsData = [
       ],
     ],
   },
+  // {
+  //   name: "Chrome Extensions",
+  //   columns: ["Name", "Live Demo", "Repo"],
+  //   rows: [
+  //     [
+  //       "xyz",
+  //       {
+  //         href: "https://www.youtube.com",
+  //       },
+  //       {
+  //         href: "https://www.youtube.com",
+  //       },
+  //     ],
+  //   ],
+  // },
+  // {
+  //   name: "Desktop Apps",
+  //   columns: ["Name", "Tech Stack", "Live Demo", "Repo"],
+  //   rows: [
+  //     [
+  //       "xyz",
+  //       "fsadifd sdndbsnf",
+  //       {
+  //         href: "https://www.youtube.com",
+  //       },
+  //       {
+  //         href: "https://www.youtube.com",
+  //       },
+  //     ],
+  //   ],
+  // },
   {
-    name: "Chrome Extensions",
-    columns: ["Name", "Live Demo", "Repo"],
+    name: "Scripts",
+    columns: ["Name", "Language", "Repo"],
     rows: [
       [
-        "xyz",
+        "Create certificates (excel data)",
+        "Python, ImageMagick (mogrify)",
         {
-          href: "https://www.youtube.com",
-        },
-        {
-          href: "https://www.youtube.com",
-        },
-      ],
-    ],
-  },
-  {
-    name: "Desktop Apps",
-    columns: ["Name", "Tech Stack", "Live Demo", "Repo"],
-    rows: [
-      [
-        "xyz",
-        "fsadifd sdndbsnf",
-        {
-          href: "https://www.youtube.com",
-        },
-        {
-          href: "https://www.youtube.com",
+          href: "https://github.com/surathjhakal/Add-Names-On-Certificates",
         },
       ],
     ],

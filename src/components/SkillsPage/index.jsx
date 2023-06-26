@@ -34,7 +34,7 @@ export const SkillsPage = () => {
       </div>
       <div style={{ border: "2px solid lightgrey" }}></div>
       <div className="Skills_certifications">
-        <h1>Certifications / Courses</h1>
+        <h1>Certifications</h1>
         <div className="Skills_all_certificates">
           {certificatesData.map((certificate, index) => (
             <>

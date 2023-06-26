@@ -52,14 +52,14 @@ export const skillsData = [
         name: "Python",
         icon: <FaPython size={30} />,
       },
-      {
-        name: "Rust",
-        icon: <FaRust size={30} />,
-      },
-      {
-        name: "Go",
-        icon: <TbBrandGolang size={30} />,
-      },
+      // {
+      //   name: "Rust",
+      //   icon: <FaRust size={30} />,
+      // },
+      // {
+      //   name: "Go",
+      //   icon: <TbBrandGolang size={30} />,
+      // },
     ],
   },
   {
@@ -142,10 +142,10 @@ export const skillsData = [
         name: "React Native",
         icon: <TbBrandReactNative size={30} />,
       },
-      {
-        name: "Kotlin android",
-        icon: <TbBrandKotlin size={30} />,
-      },
+      // {
+      //   name: "Kotlin android",
+      //   icon: <TbBrandKotlin size={30} />,
+      // },
     ],
   },
   {

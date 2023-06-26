@@ -8,6 +8,7 @@ import {
   aboutEducationData,
   aboutExperienceData,
 } from "./aboutPageData";
+import MyResume from "../../assets/resume.pdf";
 
 export const AboutPage = () => {
   const [educationSelected, setEducationSelected] = useState(true);
@@ -16,8 +17,9 @@ export const AboutPage = () => {
       <div className="About_page1">
         <div className="About_image">
           <img
-            src="https://www.refuelcreative.com.au/hs-fs/hubfs/Top%205%20Technology%20Websites.jpg?width=1599&quality=low"
+            src="https://img.freepik.com/premium-vector/hand-drawn-flat-design-metaverse-background_23-2149272274.jpg"
             alt=""
+            style={{ border: "1px solid lightgrey" }}
           />
         </div>
         <div className="About_details">
@@ -29,7 +31,7 @@ export const AboutPage = () => {
             ))}
           </div>
 
-          <a href="" className="About_resume">
+          <a href={MyResume} download={"resume.pdf"} className="About_resume">
             <FaDownload className="About_download_icon" />
             Resume
           </a>

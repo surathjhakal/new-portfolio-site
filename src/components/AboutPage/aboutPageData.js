@@ -1,8 +1,8 @@
 export const aboutData = {
   tags: "Tech Enthusiast || Solving Problems || Learning Mindset || Persistence",
   details: [
-    "Hey there, I am Surath Jhakal, a Crazy Developer.",
-    "I love Web Development, Android Development, Computer Networking & Open Source Contribution.",
+    "Hey there, I am Surath Jhakal",
+    "I love Web Development, Android Development, Computer Networking",
     "I am also working on Data Structures & Algorithms for improving my problem solving skills.",
     "I am currently pursuing a Bachelor of science in Information Technology at JaiHind College.",
     "I love working out, playing guitar, occasionally cooking, playing any sport!",
